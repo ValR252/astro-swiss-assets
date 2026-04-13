@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- Élément Feu (Agni) -->
+  <g fill="none" stroke="#C9A227" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Flamme principale -->
+    <path d="M50 85 Q35 70 35 50 Q35 30 50 15 Q65 30 65 50 Q65 70 50 85"/>
+    <!-- Flamme intérieure -->
+    <path d="M50 75 Q42 65 42 50 Q42 38 50 28 Q58 38 58 50 Q58 65 50 75" fill="#C9A227" fill-opacity="0.2"/>
+    <!-- Flamme centrale -->
+    <path d="M50 65 Q46 58 46 50 Q46 43 50 38 Q54 43 54 50 Q54 58 50 65" fill="#C9A227" fill-opacity="0.4"/>
+    <!-- Étincelles montantes -->
+    <circle cx="40" cy="35" r="1.5" fill="#C9A227"/>
+    <circle cx="60" cy="30" r="1" fill="#C9A227"/>
+    <circle cx="45" cy="22" r="1.2" fill="#C9A227"/>
+    <circle cx="55" cy="25" r="0.8" fill="#C9A227"/>
+    <!-- Triangle sacré (Agni) -->
+    <path d="M20 85 L50 55 L80 85" stroke-opacity="0.3"/>
+    <!-- Lignes de chaleur -->
+    <line x1="30" y1="60" x2="25" y2="55" stroke-opacity="0.4"/>
+    <line x1="70" y1="60" x2="75" y2="55" stroke-opacity="0.4"/>
+    <line x1="35" y1="40" x2="30" y2="35" stroke-opacity="0.4"/>
+    <line x1="65" y1="40" x2="70" y2="35" stroke-opacity="0.4"/>
+  </g>
+</svg>

@@ -1,0 +1,275 @@
+{
+  "version": "2.0.0",
+  "lastUpdated": "$(date -u +%Y-%m-%dT%H:%M:%SZ)",
+  "repository": "https://github.com/ValR252/astro-swiss-assets",
+  "baseUrl": "https://raw.githubusercontent.com/ValR252/astro-swiss-assets/main/",
+  
+  "namingConventions": {
+    "planets": "[name]-[style].png (ex: soleil-renaissance.png)",
+    "nakshatras": "[number]-[sanskrit-name].png (ex: 01-ashvini.png)",
+    "rashis": "[sanskrit-name].png (ex: mesha.png)",
+    "grahas": "[name].png (ex: surya.png)",
+    "tarot": "[number]-[kebab-name].jpg (ex: 00-le-mat.jpg)",
+    "tarotReversed": "[number]-[kebab-name].jpg dans /reversed/",
+    "pictos": "[UPPERCASE-NAME].png (ex: ACTION.png)"
+  },
+
+  "categories": {
+    "01_ASTRO_OCCIDENTAL": {
+      "description": "Astronomie et astrologie occidentale (tropicale)",
+      "subfolders": {
+        "planetes": {
+          "description": "Les 7 planètes classiques (Soleil à Saturne)",
+          "style": "Renaissance - sculptures en pierre blanche",
+          "files": [
+            {
+              "name": "soleil-renaissance.png",
+              "path": "01_ASTRO_OCCIDENTAL/planetes/soleil-renaissance.png",
+              "githubPath": "planetes/soleil-renaissance.png",
+              "size": 5365558,
+              "type": "image/png",
+              "tags": ["soleil", "renaissance", "occidental", "pierre-blanche"],
+              "color": "#ffd16f",
+              "element": "feu"
+            },
+            {
+              "name": "lune-renaissance.png",
+              "path": "01_ASTRO_OCCIDENTAL/planetes/lune-renaissance.png",
+              "githubPath": "planetes/lune-renaissance.png",
+              "size": 5044386,
+              "type": "image/png",
+              "tags": ["lune", "renaissance", "occidental", "pierre-blanche"],
+              "color": "#dee5ff",
+              "element": "eau"
+            },
+            {
+              "name": "mercure-renaissance.png",
+              "path": "01_ASTRO_OCCIDENTAL/planetes/mercure-renaissance.png",
+              "githubPath": "planetes/mercure-renaissance.png",
+              "size": 4462381,
+              "type": "image/png",
+              "tags": ["mercure", "renaissance", "occidental", "pierre-blanche"],
+              "color": "#4cd7f6",
+              "element": "air"
+            },
+            {
+              "name": "venus-renaissance.png",
+              "path": "01_ASTRO_OCCIDENTAL/planetes/venus-renaissance.png",
+              "githubPath": "planetes/venus-renaissance.png",
+              "size": 5297719,
+              "type": "image/png",
+              "tags": ["venus", "renaissance", "occidental", "pierre-blanche"],
+              "color": "#c180ff",
+              "element": "terre"
+            },
+            {
+              "name": "mars-renaissance.png",
+              "path": "01_ASTRO_OCCIDENTAL/planetes/mars-renaissance.png",
+              "githubPath": "planetes/mars-renaissance.png",
+              "size": 4866980,
+              "type": "image/png",
+              "tags": ["mars", "renaissance", "occidental", "pierre-blanche"],
+              "color": "#fd6f85",
+              "element": "feu"
+            },
+            {
+              "name": "jupiter-renaissance.png",
+              "path": "01_ASTRO_OCCIDENTAL/planetes/jupiter-renaissance.png",
+              "githubPath": "planetes/jupiter-renaissance.png",
+              "size": 4854746,
+              "type": "image/png",
+              "tags": ["jupiter", "renaissance", "occidental", "pierre-blanche"],
+              "color": "#9c48ea",
+              "element": "air"
+            },
+            {
+              "name": "saturne-renaissance.png",
+              "path": "01_ASTRO_OCCIDENTAL/planetes/saturne-renaissance.png",
+              "githubPath": "planetes/saturne-renaissance.png",
+              "size": 4600389,
+              "type": "image/png",
+              "tags": ["saturne", "renaissance", "occidental", "pierre-blanche"],
+              "color": "#65759e",
+              "element": "terre"
+            }
+          ]
+        }
+      }
+    },
+
+    "02_ASTRO_VEDIQUE": {
+      "description": "Astrologie védique/sidérale (jyotish)",
+      "subfolders": {
+        "nakshatras": {
+          "description": "Les 27 nakshatras (constellations lunaires)",
+          "count": 27,
+          "style": "Sculptures en pierre blanche",
+          "pattern": "[number]-[sanskrit-name].png"
+        },
+        "rashis": {
+          "description": "Les 12 signes du zodiaque sidéral",
+          "count": 12,
+          "pattern": "[sanskrit-name].png"
+        },
+        "grahas": {
+          "description": "Les 9 planètes védiques (Navagraha)",
+          "count": 9,
+          "pattern": "[sanskrit-name].png"
+        },
+        "bhavas": {
+          "description": "Les 12 maisons (bhavas)",
+          "count": 12,
+          "pattern": "[number]-[sanskrit-name].png"
+        },
+        "yogas": {
+          "description": "Configurations planétaires (yogas)",
+          "count": "variable"
+        }
+      }
+    },
+
+    "03_TAROT": {
+      "description": "Tarot de Marseille",
+      "subfolders": {
+        "cartes": {
+          "description": "22 arcanes majeurs",
+          "count": 22,
+          "pattern": "[number]-[kebab-name].jpg",
+          "format": "JPEG"
+        },
+        "reversed": {
+          "description": "Versions inversées des arcanes",
+          "count": 22,
+          "pattern": "[number]-[kebab-name].jpg (sans -reversed)",
+          "note": "Les cartes renversées utilisent le même nom dans le sous-dossier /reversed/"
+        }
+      }
+    },
+
+    "04_NUMEROLOGIE": {
+      "description": "Numérologie",
+      "subfolders": {
+        "chiffres-1-9": {
+          "description": "Les 9 chiffres fondamentaux",
+          "count": 9,
+          "pattern": "chiffre-[number].png",
+          "style": "Sculptures en pierre blanche"
+        }
+      }
+    },
+
+    "05_PICTOS": {
+      "description": "Pictogrammes pour emails et interfaces",
+      "subfolders": {
+        "CARDS": {
+          "description": "Pictos pour sections de cartes email",
+          "files": [
+            {
+              "name": "ACTION.png",
+              "usage": "Section Action / Climat",
+              "color": "#c180ff",
+              "colorName": "violet",
+              "hex": "#c180ff",
+              "dark": true
+            },
+            {
+              "name": "VIGILENCE.png",
+              "usage": "Section Vigilance",
+              "color": "#fd6f85",
+              "colorName": "corail",
+              "hex": "#fd6f85",
+              "dark": true
+            },
+            {
+              "name": "IDEA.png",
+              "usage": "Section Opportunité / Idée",
+              "color": "#4cd7f6",
+              "colorName": "cyan",
+              "hex": "#4cd7f6",
+              "dark": true
+            },
+            {
+              "name": "DRIVE.png",
+              "usage": "Section Motivation / Drive",
+              "color": "#ffd16f",
+              "colorName": "or",
+              "hex": "#ffd16f",
+              "dark": true
+            },
+            {
+              "name": "AFFIRMATION.png",
+              "usage": "Phrase clé / Affirmation",
+              "color": "#dee5ff",
+              "colorName": "blanc-bleu",
+              "hex": "#dee5ff",
+              "dark": false
+            },
+            {
+              "name": "PARAGRAPHE.png",
+              "usage": "Corps de texte",
+              "color": "#9baad6",
+              "colorName": "gris-bleu",
+              "hex": "#9baad6",
+              "dark": false
+            }
+          ]
+        },
+        "SOLO": {
+          "description": "Pictogrammes individuels divers"
+        }
+      }
+    },
+
+    "06_ELEMENTS": {
+      "description": "Les 5 éléments (pancha mahabhuta)",
+      "subfolders": {
+        "feu": {"name": "Agni", "color": "#fd6f85"},
+        "terre": {"name": "Prithvi", "color": "#c180ff"},
+        "air": {"name": "Vayu", "color": "#4cd7f6"},
+        "eau": {"name": "Jala", "color": "#4cd7f6"},
+        "ether": {"name": "Akasha", "color": "#dee5ff"}
+      }
+    },
+
+    "07_SYMBOLES": {
+      "description": "Symboles divers et icônes"
+    },
+
+    "99_ARCHIVE": {
+      "description": "Fichiers obsolètes, backups et anciennes versions"
+    }
+  },
+
+  "emailTemplates": {
+    "celestialOracle": {
+      "colors": {
+        "background": "#060e20",
+        "card": "#081329",
+        "cardBorder": "#142449",
+        "textPrimary": "#dee5ff",
+        "textSecondary": "#9baad6",
+        "accentViolet": "#c180ff",
+        "accentCyan": "#4cd7f6",
+        "accentGold": "#ffd16f",
+        "accentCoral": "#fd6f85"
+      },
+      "typography": {
+        "serif": "Noto Serif",
+        "sans": "Manrope"
+      }
+    }
+  },
+
+  "designSystem": {
+    "celestialMinimalist": {
+      "style": "Sculptures en pierre blanche",
+      "lighting": "Éclairage dramatique",
+      "background": "Transparent",
+      "suffix": "-nobg.png"
+    },
+    "renaissance": {
+      "style": "Classique renaissance",
+      "background": "Fond texturé"
+    }
+  }
+}
