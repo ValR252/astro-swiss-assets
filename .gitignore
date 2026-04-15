@@ -1,57 +1,5 @@
-# Ignorer les fichiers système
 .DS_Store
 Thumbs.db
-
-# Ignorer les backups et archives
-99_ARCHIVE/
-*.tar
-
-# Ignorer les fichiers de log
-*.log
-
-# Ignorer les fichiers de travail temporaires
-TODO_*
 *.tmp
-
-# Ignorer les dossiers DONE/TO DO en vrac
-DONE/
-DONE
-/
-TO\ DO/
-TO
-
-# Ignorer les dossiers sources non restructurés
-nakshatras/
-RASHIS/
-GRAHAS/
-BHAVAS/
-TAROT/
-NUMEROLOGIE/
-ELEMENTS/
-SYMBOLES/
-PICTOS_BASE/
-planetes/
-pictogrammes/
-{01_ASTRO_OCCIDENTAL/
-signes-zodiacaux/
-yogas/
-NUMERO/
-AUTRES/
-Figma/
-reference/
-assets/
-memory/
-
-# Ignorer les scripts de transition
-restructure-assets.sh
-update-asset-catalog.sh
-*.sh
-
-# Ignorer les fichiers markdown de suivi
-TODO_REPORT_*.md
-ASSETS_MANQUANTS.md
-INVENTAIRE_ASSETS.md
-picto-generation-progress.md
-rapport-generation-vedic.md
-generation-*.md
-
+*.log
+99_ARCHIVE/
